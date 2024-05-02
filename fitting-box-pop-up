@@ -1,0 +1,29 @@
+<div id="fitbox-outer">
+<div id="fitbox-inner">
+      <script src="//static.fittingbox.com/api/v1/fitmix.js"type="text/javascript"></script>
+  <div class="trySwatches">
+    <button onclick="fitmixInstance.setFrame('GZ-01-039')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/magblk06mbp-_1_2.png?v=1686090143" width="50px;" /></button>
+    <button onclick="fitmixInstance.setFrame('GZ-01-031')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/magnum-smoke-silver.png?v=1686089862" width="50px;" /></button>
+    <button onclick="fitmixInstance.setFrame('GZ-01-045')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/magnum-brown.png?v=1686089636" width="50px;" /></button>
+<button onclick="fitmixInstance.setFrame('GZ-01-023')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/products/gatorz_0042521_6706_0382b141-7e78-4410-800d-f8f21c736771_1080x.png?v=1660080242" width="50px" /></button>
+<button onclick="fitmixInstance.setFrame('GZ-01-101')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/products/gatorz_gm_bp_1_72a1f1c6-6059-4624-9f6c-11b0ac656349_1080x.png?v=1660083523" width="50px" /></button>
+    <button onclick="fitmixInstance.setFrame('GZ-01-301')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/gatorz_0042521_6700_05ed2062-870c-4df8-9c19-b1b937d583d9_1.png?v=1686090695" width="50px" /></button>
+    <button onclick="fitmixInstance.setFrame('GZ-01-201')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/magnum-od-green-smoke.png?v=1686091034" width="50px" /></button>
+    <button onclick="fitmixInstance.setFrame('GZ-01-042')"><img src="https://cdn.shopify.com/s/files/1/0226/2591/files/gatorz_121222_8564_1.png?v=1686090382" width="50px" /></button>
+  </div>
+<div id="fitContainer">
+  <div id="fitmixContainer"></div>  
+</div>
+</div>
+  <span class="popupclose" onclick="closeFitBox('fitbox-outer')">X</span>
+</div>
+  <script>    
+    function openFitBox(thepopup) {
+    var popup = document.getElementById(thepopup);
+    popup.style.display = "block";
+}
+        function closeFitBox(thepopup) {
+    var popup = document.getElementById(thepopup);
+    popup.style.display = "none";
+}
+</script>
